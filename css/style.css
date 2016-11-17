@@ -1,0 +1,178 @@
+
+/**{
+	width: 
+	height:
+	padding: 10px 13px 5px 15px;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid red;
+}*/
+a{
+	color: #976432;
+	text-decoration: none;
+}
+body{	
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+p{
+	text-align: center;
+	margin: 0;
+}
+input, textarea{
+	outline: 0;
+}
+input:focus, textarea:focus{
+	background: lightgreen;
+}
+
+.background{
+	background-image: url("http://imagenpng.com/wp-content/uploads/2015/03/Portadas-para-youtube-2048x1152-0.jpg");
+	background-size: cover;
+}
+
+.button{
+	border-radius: 5px;
+	background: #029735;
+	color: white;
+	border: none;
+	font-size: .8em;
+	margin-left: 20px;
+	padding: 2px 6px;
+	background: linear-gradient(to left, #029735, #66a97d);
+
+}
+.button-footer{
+	background: white;
+	color: #976432;
+	margin: 0; 
+}
+
+.titulo{
+	font-size: 70px;
+	margin: 0 20px 0 20px;
+}
+.title-a{
+	font-size: 24px;
+	margin: 0 20px 5px;
+}
+.title-b{
+	font-size: 50px;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+.tituloinformacion{
+	font-size: 35px;
+}
+
+.portadainfo{
+	color: #976432;
+	height: 286px;
+	margin-top: -66px;
+}
+.portada{
+	color: #976432;
+	margin-top: -66px;
+	height: 500px;
+}
+
+/*.portada button{
+	margin: 2px 0 25px 20px;
+}*/
+
+.informacionprincipal{
+	color: #1F313C;
+}
+
+.menu{
+	font-size: 18px;
+	display: inline-block;
+	float: right;
+	margin: 16px 90px 0 0;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.menu li:before{
+	content: "⋆";
+	color: brown;
+	/*font-size: 20px;*/
+	/*line-height: 20px;*/
+}
+
+.logosafa{
+	display: inline-block;
+	margin: 0 0 0 20px;
+	position: relative;
+	top: -2px;
+}
+
+.articulo{
+	display: inline-block;
+	width: 29%;
+	padding-left: 60px;
+	border: 1px solid #1F313C;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px 10px 50px 5px;
+}
+.contenedor{
+	margin: auto;
+	width: 80%;
+}
+.titulos
+{
+	padding-top: 50px;
+}
+
+.footer{
+	background: #029735;
+}
+
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a{
+	color: black;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario{
+	display: flex;
+	width: 460px;
+	/*color: white;*/
+}
+
+table{
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+th{
+	background: #029735;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+td{
+	padding: 20px;
+}
+
+table, th, td{
+	border: 1px solid #029735;
+}
