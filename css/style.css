@@ -27,8 +27,9 @@ input:focus, textarea:focus{
 }
 
 .background{
-	background-image: url("http://imagenpng.com/wp-content/uploads/2015/03/Portadas-para-youtube-2048x1152-0.jpg");
+	background-image: url("../Img/portada.jpg");
 	background-size: cover;
+	background-position: 1px;
 }
 
 .button{
@@ -71,9 +72,10 @@ input:focus, textarea:focus{
 	margin-top: -66px;
 }
 .portada{
-	color: #976432;
+	color: #ffffe3;
 	margin-top: -66px;
 	height: 500px;
+	text-shadow: 3px 3px #999;
 }
 
 /*.portada button{
